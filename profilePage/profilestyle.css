@@ -1,0 +1,595 @@
+body{
+    background-color: rgb(206, 199, 199);
+    width: 1900px;
+}
+
+.nav .header-container{
+    background-color: #1877f2;
+    margin-top: -10px;
+    margin-left: -10px;
+    min-height: 57px;
+    width: 1910px;
+}
+
+.title-container{
+    background-color: #1877f2;
+    margin-left: 300px;
+}
+
+.search-box{
+    margin-top: -25.7px;
+    margin-left: 35px;
+}
+
+.search-input{
+    margin-top: -11px;
+    padding-top: 6px;
+    padding-bottom: 4.3px;
+    border-radius: 4px;
+    width: 400px;
+    background-image: url('/facebook login page/Images/search.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 377px center;
+    cursor: pointer;
+}
+
+::placeholder{
+    margin-left: 20px;
+    color: #515152;
+}
+
+.logo-icon{
+    margin-top: 12px;
+    width: 28px;
+}
+
+.link{
+    text-align: center;
+    margin-top: -37px;
+    margin-left: 550px;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+.home-text:hover, .find-text:hover{
+    text-decoration: underline;
+}
+
+.settings-icon{
+    margin-top: -7px;
+    width: 23px;
+}
+
+.notifications-icon{
+    margin-top: -3px;
+    width: 23px;
+}
+
+.profile-icon{
+    margin-top: -150px;
+    margin-left: 300px;
+    width: 30px;
+    border-radius: 18px;
+    border: 2px solid rgb(133, 132, 132);
+}
+
+.box-container{
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    margin-left: -20px;
+    min-height: 90vh;
+    align-content: center;
+}
+
+.create-hyperlink-text{
+    color: rgb(66, 113, 167);
+    margin-top: 6px;
+    margin-left: 200px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.create-hyperlink-text:hover{
+    text-decoration: underline;
+}
+
+.username-menu{
+    margin-left: 20px;
+}
+
+.pfp-img{
+    width: 40px;
+    padding: 2px;
+    border: 2px solid #1877f2;
+    border-radius: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all 0.554s ease;
+}
+
+.pfp-img:hover{
+    width: 44px;
+}
+
+.username-text{
+    font-size: larger;
+    margin-top: -42px;
+    font-family: Arial;
+    margin-left: 73px;
+}
+
+.username-text-hyperlink:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#dropdown-icon1{
+    margin-left: 117px;
+    margin-bottom: -2px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.friend-req-container{
+    width: 260px;
+    height: 40px;
+    cursor: pointer;
+    transition: all 0.768s ease;
+}
+
+.friend-req-container:hover{
+    border-radius: 15px;
+    background-color: #b7b7b9;
+    width: 260px;
+}
+
+#friend-req-icon{
+    margin-top: 3px;
+    margin-left: 30px;
+    cursor: pointer;
+    width: 27px;
+}
+
+.friend-req-text{
+    color: rgb(78, 77, 77);
+    margin-top: -25px;
+    margin-left: 70px;
+}
+
+.group-container{
+    margin-top: 30px;
+    margin-left: 32px;
+}
+
+#group-icon{
+    margin-top: -10px;
+    border-radius: 10px;
+    width: 40px;
+    box-shadow: 10px 10px 10px (0, 0, 0, 0.655);
+}
+
+.codinggroup-text{
+    font-size: 17px;
+    margin-top: -46px;
+    font-family: Arial;
+    margin-left: 53px;
+    transition: all 0.675s ease;
+}
+
+.codinggroup-text-hyperlink:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.customize-group{
+    background-color: gray;
+    padding-bottom: 10px; padding-top: 10px;
+    width: 180px;
+    border-radius: 10px;
+    margin-left: 48px;
+    display: none;
+    transition: all 0.675s ease-in;
+}
+
+.customize-group, label{
+    color: whitesmoke;
+    font-family: Arial;
+    
+}
+
+.delete-chat-label, .delete-group-label{
+    margin-left: 27px;
+    margin-top: 10px;
+}
+
+.events-container{
+    height: 60px;
+    width: 260px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: all 0.615s ease;
+}
+
+.events-container:hover{
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #b7b7b9;
+}
+
+.saved-container{
+    width: 260px;
+    height: 60px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: all 0.615s ease;
+}
+
+.saved-container:hover{
+    background-color: #b7b7b9;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+.pages-container{
+    margin-top: -10px;
+    margin-bottom: 10px;
+    width: 260px;
+    height: 60px;
+    cursor: pointer;
+    transition: all 0.615s ease;
+}
+
+.pages-container:hover{
+    background-color: #b7b7b9;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.friends-container{
+    width: 260px;
+    height: 60px;
+    cursor: pointer;
+    transition: all 0.615s ease;
+}
+
+.friends-container:hover{
+    background-color: #b7b7b9;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.settings-container{
+    width: 260px;
+    height: 60px;
+    cursor: pointer;
+    transition: all 0.651s ease;
+}
+
+.settings-container:hover{
+    background-color: #b7b7b9;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.applications-container{
+    width: 290px;
+    height: 60px;
+    cursor: pointer;
+    transition: all 0.615s ease;
+}
+
+
+#events-icon{
+    width: 40px;
+    border-radius: 5px;
+    margin-top: 7px;
+}
+
+.saved-icons{
+    width: 57px;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-left: -9.3px;
+}
+
+
+.pages-icon{
+    width: 41px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: -1.2px;
+}
+
+.friends-icon{
+    border-radius: 5px;
+    width: 41px;
+    margin-top: 10px;
+}
+
+.settings-img{
+    width: 41px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.application-icons{
+    width: 41px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.application-dropdown-icon{
+    margin-left: 117px;
+    margin-bottom: -2px;
+    width: 20px;
+    cursor: pointer;
+}
+
+
+.events-text{
+    font-size: 17px;
+    margin-top: -33px;
+    font-family: Arial;
+    margin-left: 53px;
+    transition: all 0.675s ease;
+}
+
+.saved-text{
+    font-size: 17.5px;
+    margin-top: -43px;
+    font-family: Arial;
+    margin-left: 53px;
+
+}
+
+.pages-text{
+    font-size: 17px;
+    margin-top: -31px;
+    font-family: Arial;
+    margin-left: 53px;
+    transition: all 0.675s ease;
+}
+
+.friends-text{
+    font-size: 17px;
+    margin-top: -31px;
+    font-family: Arial;
+    margin-left: 53px;
+    transition: all 0.675s ease;
+}
+
+.settings-text{
+    font-size: 17px;
+    font-family: Arial;
+    margin-top: -31px;
+    margin-left: 53px;
+}
+
+.applications-text{
+    font-size: 17px;
+    font-family: Arial;
+    margin-top: -31px;
+    margin-left: 53px;
+}
+
+
+.group-dropdown{
+    width: 20px;
+    margin-top: 9px;
+    margin-left: 62.7px;
+    cursor: pointer;
+}
+
+.deletegroup-icon{
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 13px;
+    width: 17px;
+}
+
+.admin-icon{
+    width: 15px;
+}
+
+.admin-container{
+    margin-top: -10px;
+    margin-left: 48px;
+}
+
+.username:hover{
+    text-decoration: underline;
+    text-decoration-color: #1877f2;
+    cursor: pointer;
+}
+
+.sec-header-container{
+    margin-top: -845px;
+    width: 1260px;
+    height: 88vh;
+    border-radius: 17px;
+    margin-left: 370px;
+    position: relative;
+    box-shadow: 5px 7px 45px rgba(0, 0, 0, 0.654);
+}
+
+.header-content{
+    padding-top: -120px;
+    border: 2px solid gray;
+    margin-left: 320px;
+    border-radius: 15px;
+    height: 67px;
+    width: 680px;
+    position: absolute;
+    top: 30px;
+}
+
+.home-img-container{
+    width: 170px;
+    height: 40px;
+    margin-left: 10.495px;
+    transition: all 0.763s ease;
+}
+
+.home-img-container:hover{
+    width: 45px;
+}
+
+.home-image{
+    display: flex;
+    margin-top: 18.7px;
+    margin-left: 70px;
+    width: 30px;
+    cursor: pointer;
+    transition: all 0.443s ease;
+}
+
+.home-image:hover{
+    transform: scale(1.15);
+}
+
+.tv-img-container{
+    width: 170px;
+    height: 40px;
+    margin-left: 150.495px;
+    margin-top: -22px;
+}
+
+.tv-image{
+    display: flex;
+    width: 30px;
+    margin-top: -37.6px;
+    margin-left: 73px;
+    cursor: pointer;
+}
+
+.label-container{
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center;
+    margin-left: 270px;
+    margin-top: -29px;
+}
+
+.pfp-icon{
+    border-radius: 20px;
+    width: 40px;
+}
+
+.message{
+    display: flex;
+    align-items: center;
+}
+
+.message-input{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 14px;
+    border: 1px solid gray;
+    width: 400px;
+    flex: -1;
+    margin-top: 5px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+.message-input:focus{
+    outline: none;
+    border: 2px solid #1877f2;
+}
+
+.message-input::placeholder {
+    font-family: monospace;
+    font-size: 15px;
+    color: rgb(99, 98, 98);
+}
+
+.message-input::placeholder:before {
+    content: "[";
+}
+
+.message-input::placeholder:after {
+    content: "]";
+}
+
+.post-img{
+    margin-left: 10px;
+    cursor: pointer;
+    transition: transform 0.654s ease width 0.543s ease;
+}
+
+.post-img:hover{
+    transform: translate(3px, -3px);
+}
+
+.post-img:active{
+    width: 15px;
+}
+
+#post-icon{
+    vertical-align: middle;
+}
+
+.photo-video-container {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    height: 30px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.654);
+    width: 170px;
+    background-color: rgba(175, 174, 174, 0.39);
+    transition: all 0.675s ease;
+    cursor: pointer; /* Add cursor pointer for better UX */
+}
+
+.photo-video-container:hover {
+    transform: scale(1.083);
+}
+
+.photovideo-icon {
+    margin-left: 10px;
+    width: 27px;
+}
+
+.photovideo-text {
+    color: black;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.tag-friends-container {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    height: 30px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.654);
+    width: 170px;
+    background-color: rgba(175, 174, 174, 0.39);
+    transition: all 0.675s ease;
+    cursor: pointer;
+}
+
+.tagfriends-icon {
+    width: 27px;
+    margin-left: 10px;
+}
+
+.tagfriends-text {
+    color: black;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.tag-friends-container:hover {
+    transform: scale(1.083);
+}
+
+
+

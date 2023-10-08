@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="profilestyle.css">
+    <link rel="icon" href="/facebook login page/Images/user.png">
+</head>
+<body>
+    <section class="nav">
+        <header class="header-container flex">
+            <div class="title-container">
+                <img src="/facebook login page/Images/facebook (1).png" alt="" class="logo-icon">
+                <div class="search-box">
+                    <input type="text" name="search" class="search-input" placeholder="Search">
+                    <div class="search-icon"></div>
+                </div>
+            </div>
+            <nav>
+                <div class="nav-container">
+                    <div class="link">
+                        <ul>
+                            <a href="#" class="home-link"><b>
+                                <span style="margin-right: 30px;" class="home-text">
+                                    <img src="/facebook login page/Images/settings.png" class="settings-icon"></span></b></a>
+                            <a href="#" class="find-link"><b>
+                                <span style="font-size: 15.496px; " class="find-text">
+                                <img src="/facebook login page/Images/chat.png" alt="" class="notifications-icon"></span></b></a>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </section>
+    <section class="body">
+        <section class="profile-menu">
+            <div class="box-container">
+                <section class="user-profile-menu">
+                    <div class="title-menu-profile">
+                        <h2 style="font-family: Arial; margin-left: 20px; font-size: 25px;">
+                            <b>Home</b> <a href="#" class="create-hyperlink-text">Create</a>
+                        </h2>
+                    </div>
+                    <div class="username-menu">
+                        <img src="/facebook login page/Images/profile-picture.jpg" alt="pfp image" class="pfp-img">
+                        <p class="username-text"><span class="username-text-hyperlink">Aqil Ali</span> <span style="color: rgb(54, 124, 151);">&#10004;</span> <span>
+                            <img src="/facebook login page/Images/down.png" alt="" class="img-fluid" id="dropdown-icon1">
+                        </span></p>
+                        <div class="friend-req-container">
+                            <img src="/facebook login page/Images/friend-request.png" class="img-fluid" id="friend-req-icon">
+                            <p class="friend-req-text"><span class="friendreq-hyperlink-text">3 pending friend request</span></p>
+                        </div>
+                    </div>
+                    <div class="group-container">
+                        <div class="group-box">
+
+                            <img src="/facebook login page/Images/coding-group.jpg" alt="group image" class="img-fluid" id="group-icon">
+                            <p class="codinggroup-text"><span class="codinggroup-text-hyperlink"><strong>Coding Group 💻</strong></span>
+                                <span><img src="/facebook login page/Images/down.png" onclick="" class="group-dropdown" id="group-dropdown-icon">
+                                <p class="admin-container"><img src="/facebook login page/Images/setting (1).png" alt="admin-icon" class="admin-icon"> 
+                                    <span style="color: rgb(94, 93, 93);">Admin: <span class="username">
+                                        <a href="#" style="color: #1877f2; font-size: 15px;">@aqlxy</a></span></span></p></span></p>
+
+                                <div class="customize-group" id="customize-group" style="display: none;">
+                                    <label class="delete-chat-label" id="deletechat-label">Delete Chat</label> <br>
+                                    <hr>
+                                    <label class="delete-group-label" id="deletegroup-label">Delete Group <span>
+                                        <img src="/facebook login page/Images/bin.png" alt="" class="deletegroup-icon"></span></label>
+                                </div>
+                                <div class="events-container" id="events-container">
+                                    <img src="/facebook login page/Images/calendar.png" alt="events image" class="img-fluid" id="events-icon">
+                                    <p class="events-text"><span class="events-text-hyperlink">
+                                        <a href="#" style="color: black; "><strong>Events</strong></a></span></p>
+                                </div>
+                                <div class="saved-container" id="saved-container">
+                                    <img src="/facebook login page/Images/bookmark.png" alt="saved icons" class="saved-icons">
+                                    <p class="saved-text"><span class="saved-text-hyperlink">
+                                        <a href="#" class="" name ="" style="color: black;"><strong>Saved</strong></a></span></p>
+                                </div>
+                                <div class="pages-container" id="pages-container">
+                                    <img src="/facebook login page/Images/content.png" alt="pages icons" class="pages-icon">
+                                    <p class="pages-text"><span class="pages-text-hyperlink">
+                                        <a href="#" class="" style="display: flex; color: black;"><strong>Pages</strong></a></span></p>
+                                </div>
+                                <div class="friends-container" id="friends-container">
+                                    <img src="/facebook login page/Images/users.png" alt="friends icon" class="friends-icon">
+                                    <p class="friends-text"><span class="friends-text-hyperlink">
+                                        <a href="#" style="display: flex; color: black;"><strong>Friends</strong></a></span></p>
+                                </div>
+                                <div class="settings-container" id="settings-container">
+                                    <img src="/facebook login page/Images/setting (2).png" class="settings-img">
+                                    <p class="settings-text"><span class="settings-text-hyperlink">
+                                        <a href="#" style="display: flex; color: black;"></a><strong>Settings & Privacy</strong></span></p>
+                                </div>
+
+                                <div class="applications-container" id="applications-container">
+                                    <img src="/facebook login page/Images/application.png" alt="application-icons" class="application-icons">
+                                    <p class="applications-text"><span class="applications-text-hyperlink">
+                                        <a href="#" style="display: flex; color: black;"><strong>See more</strong>
+                                            <span><img src="/facebook login page/Images/down.png" alt="" class="application-dropdown-icon"></span></a></span></p>
+                                </div>
+
+                                <footer style="color: rgb(92, 91, 91); font-family: Arial; font-size: 14px; margin-top: 160px; margin-left: -20px;">
+                                    Privacy &#8226; Terms &#8226; Advertising &#8226; Ad Choices &#8226; Cookies
+                                    <br> <span>&#8226; More &#8226; Facebook &#169; 2023 </span></footer>
+                                        
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </section>
+    <section class="body-content">
+        
+        <div class="content-container">
+            <div class="header-img-content">
+                <img src="/facebook login page/Images/home (1).png" alt="" class="home-img">
+            </div>
+        </div>
+
+    </section>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

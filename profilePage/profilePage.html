@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="profilestyle.css">
+    <link rel="icon" href="/facebook login page/Images/user.png">
+</head>
+<body>
+    <section class="nav">
+        <header class="header-container flex">
+            <div class="title-container">
+                <img src="/Images/facebook (1).png" alt="" class="logo-icon">
+                <div class="search-box">
+                    <input type="text" name="search" class="search-input" placeholder="Search">
+                    <div class="search-icon"></div>
+                </div>
+            </div>
+            <nav>
+                <div class="nav-container">
+                </div>
+            </nav>
+        </header>
+    </section>
+    <section class="body">
+        <section class="profile-menu">
+            <div class="box-container">
+                <section class="user-profile-menu">
+                    <div class="title-menu-profile">
+                        <h2 style="font-family: Arial; margin-left: 20px; font-size: 25px;">
+                            <b>Home</b> <a href="#" class="create-hyperlink-text">Create</a>
+                        </h2>
+                    </div>
+                    <div class="username-menu">
+                        <img src="/Images/profile-picture.jpg" class="pfp-img">
+                        <p class="username-text"><span class="username-text-hyperlink">Aqil Ali</span> <span style="color: rgb(54, 124, 151);">&#10004;</span> <span>
+                            <img src="/Images/down.png" alt="" class="img-fluid" id="dropdown-icon1">
+                        </span></p>
+                        <div class="friend-req-container">
+                            <img src="/Images/friend-request.png" class="img-fluid" id="friend-req-icon">
+                            <p class="friend-req-text"><span class="friendreq-hyperlink-text">3 pending friend request</span></p>
+                        </div>
+                    </div>
+                    <div class="group-container">
+                        <div class="group-box">
+
+                            <img src="/Images/coding-group.jpg" alt="group image" class="img-fluid" id="group-icon">
+                            <p class="codinggroup-text"><span class="codinggroup-text-hyperlink"><strong>Coding Group 💻</strong></span>
+                                <span><img src="/Images/down.png" onclick="" class="group-dropdown" id="group-dropdown-icon">
+                                <p class="admin-container"><img src="/Images/setting (1).png" alt="admin-icon" class="admin-icon">
+                                    <span style="color: rgb(94, 93, 93);">Admin: <span class="username">
+                                        <a href="#" title="Group Owner" style="color: #1877f2; font-size: 15px;">@aqlxy</a></span></span></p></span></p>
+                                <div class="customize-group" id="customize-group" style="display: none;">
+                                    <label class="delete-chat-label" id="deletechat-label">Delete Chat</label> <br>
+                                    <hr>
+                                    <label class="delete-group-label" id="deletegroup-label">Delete Group <span>
+                                        <img src="/Images/bin.png" alt="" class="deletegroup-icon"></span></label>
+                                </div>
+                                <div class="events-container" id="events-container"  onclick="document.getElementById('events-container');
+                                window.open('/contentPage/eventsPage.html', '_self')">
+                                    <img src="/Images/calendar.png" alt="events image" class="img-fluid" id="events-icon">
+                                    <p class="events-text"><span class="events-text-hyperlink">
+                                        <a href="#" style="color: black; "><strong>Events</strong></a></span></p>
+                                </div>
+                                <div class="saved-container" id="saved-container" onclick="document.getElementById('saved-container');
+                                window.open('/contentPage/savedPage.html', '_self')">
+                                    <img src="/Images/bookmark.png" alt="saved icons" class="saved-icons">
+                                    <p class="saved-text"><span class="saved-text-hyperlink">
+                                        <a href="#" class="saved-hyerlink" style="color: black;"><strong>Saved</strong></a></span></p>
+                                </div>
+                                <div class="pages-container" id="pages-container" onclick="document.getElementById('pages-container');
+                                window.open('/contentPage/pagesPage.html', '_self')">
+                                    <img src="/Images/content.png" alt="pages icons" class="pages-icon">
+                                    <p class="pages-text"><span class="pages-text-hyperlink">
+                                        <a href="#" class="pages-hyperlink" style="display: flex; color: black;"><strong>Pages</strong></a></span></p>
+                                </div>
+                                <div class="friends-container" id="friends-container" onclick="document.getElementById('friends-container');
+                                window.open('/contentPage/friendsPage.html', '_self')">
+                                    <img src="/Images/users.png" alt="friends icon" class="friends-icon">
+                                    <p class="friends-text"><span class="friends-text-hyperlink">
+                                        <a href="#" style="display: flex; color: black;"><strong>Friends</strong></a></span></p>
+                                </div>
+                                <div class="settings-container" id="settings-container" onclick="document.getElementById('settings-container');
+                                window.open('/contentPage/settingsPage.html', '_self')">
+                                    <img src="/Images/setting (2).png" class="settings-img">
+                                    <p class="settings-text"><span class="settings-text-hyperlink">
+                                        <a href="#" style="display: flex; color: black;"></a><strong>Settings & Privacy</strong></span></p>
+                                </div>
+
+                                <div class="applications-container" id="applications-container">
+                                    <img src="/Images/application.png" alt="application-icons" class="application-icons">
+                                    <p class="applications-text"><span class="applications-text-hyperlink">
+                                        <a href="#" style="display: flex; color: black;"><strong>See more</strong>
+                                            <span><img src="/Images/down.png" alt="" class="application-dropdown-icon"></span></a></span></p>
+                                </div>
+
+                                <footer style="color: rgb(92, 91, 91); font-family: Arial; font-size: 14px; margin-top: 160px; margin-left: -20px;">
+                                    Privacy &#8226; Terms &#8226; Advertising &#8226; Ad Choices &#8226; Cookies
+                                    <br> <span>&#8226; More &#8226; Facebook &#169; 2023 </span></footer>
+                                        
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <section class="body-content">
+            <div class="sec-header-container">
+                <div class="header-content">
+                    <div class="home-img-container">
+                        <img src="/Images/home (1).png" alt="" class="home-image">
+                    </div>
+                    <div class="tv-img-container">
+                        <img src="/Images/tv.png" alt="" class="tv-image">
+                    </div>
+                </div>
+                <div class="sec-body-content">
+                    <div class="label-container" style="position: absolute; top: 410px;">
+                        <img src="/Images/profile-picture.jpg" alt="" class="pfp-icon">
+                        <div class="message">
+                            <input type="text" class="message-input" placeholder="What's on your mind, aqlxy?">
+                            <div class="post-img">
+                                <img src="/Images/telegram.png" width="20px" class="img-fluid" id="post-icon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="function-container">
+                        <div class="photo-video-container">
+                            <img src="/Images/media.png" alt="" class="photovideo-icon">
+                            <label for="" class="photovideo-text">Photo/Video</label>
+                        </div>
+    
+                        <div class="tagfriends-container">
+                            <div class="tag-friends-container">
+                                <img src="/Images/tag.png" alt="" class="tagfriends-icon">
+                                <label for="" class="tagfriends-text" style="">Tag Friends</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
